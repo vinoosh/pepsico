@@ -29,3 +29,28 @@ git clone https://github.com/YOUR-USERNAME/augur-frontend.git
 cd augur-frontend
 npm install
 npm run dev
+
+
+const distributors = [
+  {
+    id: 1,
+    name: "Distributor One",
+    shippedLastMonth: 1200,
+    forecastedNextMonth: 1300,
+    ytdAverage: 1150,
+    region: "North America",
+    trend: "up",
+    reliabilityScore: 95
+  },
+  {
+    id: 2,
+    name: "Distributor Two",
+    shippedLastMonth: 950,
+    forecastedNextMonth: 1100,
+    ytdAverage: 980,
+    region: "Europe",
+    trend: "down",
+    reliabilityScore: 88
+  }
+];
+export default distributors;
